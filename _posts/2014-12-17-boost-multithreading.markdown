@@ -12,36 +12,38 @@ On Linux, it uses pthreads underlying. So it can be thought of pthreads wrapped 
 
 [Here][boost] is the official link.
 
-Example-1 : Basic Multi-threading
+# Example-1 : Basic Multi-threading
 
 This simple example spawns two threads. Callback function for each thread is invoked.
 
-    #include <boost/thread.hpp>
-    void readerApi()
-    {
-      for (int i=0; i < 10; i++) {
-        usleep(400);
-        std::cout << "readerApi: " << i
-		  << std::endl;
-      }
-    }
-    void writerApi()
-    {
-      for (int i=0; i < 10; i++) {
-        std::cout << "writerApi: " << i
-                  << std::endl;
-        usleep(400);
-      }
-    }
+{% highlight cpp linenos %}
+#include <boost/thread.hpp>
+void readerApi()
+{
+  for (int i=0; i < 10; i++) {
+    usleep(400);
+    std::cout << "readerApi: " << i
+              << std::endl;
+  }
+}
+void writerApi()
+{
+  for (int i=0; i < 10; i++) {
+    std::cout << "writerApi: " << i
+              << std::endl;
+    usleep(400);
+  }
+}
 
-    int main()
-    {
-      boost::thread readerThread(readerApi);
-      boost::thread writerThread(writerApi);
+int main()
+{
+  boost::thread readerThread(readerApi);
+  boost::thread writerThread(writerApi);
 
-      readerThread.join();
-      writerThread.join();
-    }
+  readerThread.join();
+  writerThread.join();
+}
+{% endhighlight %}
 
 
 [boost]: http://www.boost.org/doc/libs/1_49_0/doc/html/thread.html
