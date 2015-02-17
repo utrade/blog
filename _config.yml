@@ -4,7 +4,7 @@ email: info@utradesolutions.com
 description: > # this means to ignore newlines until "baseurl:"
   Welcome to Blog of uTrade Solutions, a trading technology
   company with its development center in Chandigarh, India.
-baseurl: "/blog" # the subpath of your site, e.g. /blog/
+# baseurl: "/blog" # the subpath of your site, e.g. /blog/
 url: "http://utrade.github.io/" # the base hostname & protocol for your site
 twitter_username: uTradeSolutions
 github_username:  utrade
