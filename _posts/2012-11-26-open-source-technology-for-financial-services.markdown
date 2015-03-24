@@ -2,6 +2,7 @@
 layout: post
 title:  "Open Source Technology for Financial Services"
 date:   2012-11-26 13:41:49
+author: "Kunal Nandwani"
 categories:
 ---
 

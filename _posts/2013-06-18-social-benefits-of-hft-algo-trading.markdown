@@ -2,8 +2,10 @@
 layout: post
 title:  "Social Benefits of HFT and Algo Trading - Regulators should embrace them"
 date:   2013-06-18 13:41:49
+author: "Kunal Nandwani"
 categories:
 ---
+
 The tremendous growth in financial trading volumes in the last couple of decades has been made possible only with the use of technology. Technology has helped in
 
 - automating the dissemination of market data and other relevant information by exchanges and trading participants

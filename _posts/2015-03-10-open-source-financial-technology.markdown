@@ -2,6 +2,7 @@
 layout: post
 title:  "Open Source Products in Financial Technology"
 date:   2015-03-10
+author: "Harwinder Sidhu"
 categories:
 ---
 

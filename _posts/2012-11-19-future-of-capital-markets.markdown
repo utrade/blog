@@ -2,6 +2,7 @@
 layout: post
 title:  "Future of Capital Markets"
 date:   2012-11-19 13:41:49
+author: "Kunal Nandwani"
 categories:
 ---
 
